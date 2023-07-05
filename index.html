@@ -7,17 +7,29 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="title">Rock Paper Scissors</div>
+<div class="header">
+    <div class="title">Rock Paper Scissors</div>
+</div>
+<div class="screenContainer">
 
-<div class="scoreBoard">
-    <div id="playerScore"></div>
-    <div id="gameStatus"></div>
-    <div id="compScore"></div>
+    <div class="scoreBoardContainer">
+        <div class="gameStatus">Click Your Move!</div>
+        <div class="movesContainer">
+            <div class="playerMove">?</div>
+            <div class="compMove">?</div>
+        </div>
+        <div class="scoresContainer">
+            <div class="playerScore">You: 0</div>
+            <div class="compScore">Opponent: 0</div>
+        </div>
+
+    </div>
+    <div class="buttonContainer">
+        <button class="btn Rock">Rock</button>
+        <button class="btn Scissors">Paper</button>
+        <button class="btn Paper">Scissors</button>
+    </div>
 </div>
-<div class="buttons">
-    <button id="Rock"></button>
-    <button id="Scissors"></button>
-    <button id="Paper"></button>
-</div>
+
 </body>
 </html>

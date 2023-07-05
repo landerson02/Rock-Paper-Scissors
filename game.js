@@ -26,3 +26,6 @@ function playGame() {
     let out = compScore > playerScore ? "You Lose! :(" : "You Win! :)";
     console.log(out);
 }
+
+
+// User Interface

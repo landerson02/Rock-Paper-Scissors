@@ -1,19 +1,66 @@
+.header {
+    text-align: center;
+}
+
 .title {
+    font-size: 48px;
 
 }
 
-.scoreBoard {
+.screenContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.scoreBoardContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    font-size: 36px;
+    border: 1px solid black;
+}
+
+.movesContainer {
+    display: flex;
+}
+
+.scoresContainer {
 
 }
 
-#playerScore {
+.playerScore {
 
 }
 
-#gameStatus {
+.gameStatus {
 
 }
 
-#compScore {
+.compScore {
+
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.btn {
+    width: 150px;
+    height: 150px;
+}
+
+.Rock {
+
+}
+
+.Paper {
+
+}
+
+.Scissors {
 
 }

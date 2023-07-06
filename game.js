@@ -7,12 +7,12 @@ function getComputerChoice() {
 }
 
 function playRound(playerChoice, compChoice) {
-    if(playerChoice === compChoice) return "Tie Game! :|";
+    if(playerChoice === compChoice) return 0;
     else if ((playerChoice === "scissors" && compChoice==="paper")
         || (playerChoice === "rock" && compChoice === "scissors")
         || (playerChoice === "paper" && compChoice === "rock")) {
-        return "You Win! :)";
-    } else return "You Lose! :("
+        return 1;
+    } else return -1;
 }
 
 function playGame() {
@@ -23,9 +23,12 @@ function playGame() {
         if(res === "You Win! :)") playerScore++;
         else if(res === "You Lose! :(") compScore++;
     }
-    let out = compScore > playerScore ? "You Lose! :(" : "You Win! :)";
-    console.log(out);
 }
 
 
 // User Interface
+const rockButton = document.getElementById("rock-btn");
+const paperButton = document.querySelector("#paper-btn");
+const scissorsButton = document.querySelector("#scissors-btn");
+
+rockButton.addEventListener('click', () => console.log(123));

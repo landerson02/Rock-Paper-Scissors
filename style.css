@@ -1,10 +1,27 @@
+:root {
+    --dark-bg-color: rgb(34, 5, 108);
+    --light-bg-color: rgb(54, 25, 158);
+    --gray-font-color: rgb(150, 150, 150);
+    --rock-pink: rgb(233, 68, 233);
+    --paper-green: rgb(101, 219, 188);
+    --scissors-blue: rgb(55, 122, 227);
+}
+
+body {
+    background-color: var(--dark-bg-color);
+}
+
 .header {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    background-color: var(--light-bg-color);
+    color: var(--gray-font-color);
+    font-family: "American Typewriter", serif;
 }
 
 .title {
-    font-size: 48px;
-
+    font-size: 60px;
 }
 
 .screenContainer {
@@ -12,34 +29,33 @@
     flex-direction: column;
     align-items: center;
     gap: 30px;
+    color: var(--gray-font-color);
+    font-family: "American Typewriter", serif;
 }
 
 .scoreBoardContainer {
     display: flex;
     flex-direction: column;
     gap: 40px;
-    font-size: 36px;
-    border: 1px solid black;
+    font-size: 30px;
+    width: 450px;
+    align-items: center;
 }
 
-.movesContainer {
+.scoreBoxContainer {
     display: flex;
 }
 
-.scoresContainer {
-
-}
-
-.playerScore {
-
+.scoreBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 30px;
 }
 
 .gameStatus {
-
-}
-
-.compScore {
-
+    margin-top: 40px;
+    margin-bottom: -40px;
 }
 
 .buttonContainer {
@@ -49,18 +65,22 @@
 }
 
 .btn {
-    width: 150px;
-    height: 150px;
+    width: 156px;
+    height: 156px;
+    background-color: var(--dark-bg-color);
+    border: none;
+    padding: 0;
+    margin: 0;
 }
 
 .Rock {
-
+    border: 3px solid var(--rock-pink);
 }
 
 .Paper {
-
+    border: 3px solid var(--paper-green);
 }
 
 .Scissors {
-
+    border: 3px solid var(--scissors-blue);
 }

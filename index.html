@@ -11,25 +11,24 @@
     <div class="title">Rock Paper Scissors</div>
 </div>
 <div class="screenContainer">
-
     <div class="scoreBoardContainer">
         <div class="gameStatus">Click Your Move!</div>
-        <div class="movesContainer">
-            <div class="playerMove">?</div>
-            <div class="compMove">?</div>
+        <div class="scoreBoxContainer">
+            <div class="scoreBox">
+                <div id="playerMove">?</div>
+                <div id="playerScore">You: 0</div>
+            </div>
+            <div class="scoreBox">
+                <div id="compMove">?</div>
+                <div id="compScore">Opponent: 0</div>
+            </div>
         </div>
-        <div class="scoresContainer">
-            <div class="playerScore">You: 0</div>
-            <div class="compScore">Opponent: 0</div>
-        </div>
-
     </div>
     <div class="buttonContainer">
-        <button class="btn Rock">Rock</button>
-        <button class="btn Scissors">Paper</button>
-        <button class="btn Paper">Scissors</button>
+        <button class="btn Rock" id="rock-btn"><img src="Assets/Rock.png" alt="Rock"></button>
+        <button class="btn Paper" id="paper-btn"><img src="Assets/Paper.png" alt="Paper"></button>
+        <button class="btn Scissors" id="scissors-btn"><img src="Assets/Scissors.png" alt="Scissors"></button>
     </div>
 </div>
-
 </body>
 </html>

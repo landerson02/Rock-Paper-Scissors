@@ -10,4 +10,4 @@ To play the game, follow these steps:
 1. Player 1 selects their choice (rock, paper, or scissors).
 2. The computer selects their choice (rock, paper, or scissors).
 3. The choices are compared, and the winner is determined based on the rules mentioned above.
-4. The winner is displayed on the screen.
+4. The first player to 5 wins is the winner.

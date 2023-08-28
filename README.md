@@ -11,3 +11,5 @@ To play the game, follow these steps:
 2. The computer selects their choice (rock, paper, or scissors).
 3. The choices are compared, and the winner is determined based on the rules mentioned above.
 4. The first player to 5 wins is the winner.
+
+[Live Preview](https://landerson02.github.io/Rock-Paper-Scissors/)
